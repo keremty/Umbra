@@ -19,7 +19,9 @@ This project presents a modular execution framework designed to study advanced e
 **Note:** This framework operates entirely in User Mode (Ring 3). The capabilities are strictly limited to the permissions and visibility of a standard user process, without kernel-level access or privileges.
 
 ### Execution Demo
-![Execution Demo](assets/umbra_demo.gif)
+<div align="center">
+  <img src="assets/umbra_demo.gif" width="75%" alt="Execution Demo">
+</div>
 
 ## Research Goals & Scope
 This codebase explores Windows user-mode mechanisms in three primary areas:
@@ -149,6 +151,7 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
 
 
