@@ -20,7 +20,7 @@ This project presents a modular execution framework designed to study advanced e
 
 ### Execution Demo
 <div align="center">
-  <img src="assets/umbra_demo.gif" width="75%" alt="Execution Demo">
+  <img src="assets/umbra_demo.gif" width="85%" alt="Execution Demo">
 </div>
 
 ## Research Goals & Scope
@@ -151,6 +151,7 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
 
 
