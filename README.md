@@ -6,6 +6,8 @@
 > **Authorized Security Research Only**>
 > This repository is published for **authorized security research, defensive validation, and educational purposes**. It contains **dual-use** implementation patterns that can be misused.
 >**Built-in Safety**: MessageBox confirmation required before execution. Default payload is NOP instructions only.
+> This project is governed by the **Security Research Educational License (SREL)**.  
+> Use of this repository implies acceptance of the license terms.
 > - Do not use this code to access systems without explicit permission.
 > - Do not use this code for persistence, credential access, disruption, or harm.
 > - Maintain strict scope control: isolated lab environments, clear approvals, and auditable experiments.
@@ -138,4 +140,5 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
