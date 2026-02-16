@@ -48,9 +48,13 @@ cargo build --release
 
 Screenshots below show runtime behavior observed via System Informer, including call stack structure and memory layout during execution.
 
-![Call Stack Analysis](assets/stack.png)
-
-![Memory Map Analysis](assets/memory.png)
+<div align="center">
+  <img src="assets/stack.png" width="85%" alt="Call Stack Analysis">
+</div>
+<br>
+<div align="center">
+  <img src="assets/memory.png" width="85%" alt="Memory Map Analysis">
+</div>
 
 ### Load and Execution Flow
 The following diagram outlines the loader's operational lifecycle:
@@ -152,6 +156,7 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
 
 
