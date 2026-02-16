@@ -20,7 +20,7 @@ This project presents a modular execution framework designed to study advanced e
 
 ### Execution Demo
 <div align="center">
-  <img src="assets/umbra_demo.gif" width="85%" alt="Execution Demo">
+  <img src="assets/umbra_demo.gif" width="93%" alt="Execution Demo">
 </div>
 
 ## Research Goals & Scope
@@ -51,6 +51,7 @@ Screenshots below show runtime behavior observed via System Informer, including 
 ![Call Stack Analysis](assets/stack.png)
 
 ![Memory Map Analysis](assets/memory.png)
+
 ### Load and Execution Flow
 The following diagram outlines the loader's operational lifecycle:
 
@@ -151,6 +152,7 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
 
 
