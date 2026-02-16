@@ -53,7 +53,7 @@ Screenshots below show runtime behavior observed via System Informer, including 
 </div>
 <br>
 <div align="center">
-  <img src="assets/memory.png" width="85%" alt="Memory Map Analysis">
+  <img src="assets/memory.png" width="75%" alt="Memory Map Analysis">
 </div>
 
 ### Load and Execution Flow
@@ -156,6 +156,7 @@ The table below maps observable implementation patterns to MITRE ATT&CK techniqu
 
 
 <img src="https://raw.githubusercontent.com/keremty/SysProbe/refs/heads/main/assets/blue-line.svg" width="100%">
+
 
 
 
