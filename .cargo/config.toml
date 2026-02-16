@@ -1,0 +1,26 @@
+[build]
+target = "x86_64-pc-windows-msvc"
+
+[target.x86_64-pc-windows-msvc]
+rustflags = [
+    "-C", "link-arg=/NOLOGO",
+    "-C", "link-arg=/DEBUG:NONE",
+    "-C", "link-arg=/EMITPOGOPHASEINFO",
+    "-C", "link-arg=/OPT:REF",
+    "-C", "link-arg=/OPT:ICF",
+    "-C", "link-arg=/INCREMENTAL:NO",
+    "-C", "link-arg=/MERGE:.rdata=.text",
+    "-C", "link-arg=/SECTION:.text,ERW",
+    "-C", "target-feature=+crt-static",
+    "-Z", "plt=no",
+    "-Z", "location-detail=none",
+    "-C", "debuginfo=0",
+    "-C", "force-frame-pointers=no",
+]
+
+[unstable]
+build-std = ["std", "panic_abort", "core"]
+build-std-features = ["optimize_for_size"]
+
+[env]
+RUSTFLAGS = "-C target-feature=+crt-static"
