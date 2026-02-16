@@ -1,0 +1,188 @@
+# Security Research Educational License (SREL)
+
+**Copyright (c) 2025 keremty**  
+**All Rights Reserved**
+
+## 1. Purpose and Intent
+
+This software is a **technical demonstration and educational resource** created to:
+- Showcase advanced Windows programming capabilities for portfolio purposes
+- Enable security researchers to study modern evasion techniques
+- Help defensive teams understand and detect sophisticated threats
+- Facilitate academic research in computer security
+
+This software is **NOT** designed, intended, or authorized for malicious use, unauthorized access, or any illegal purposes.
+
+## 2. Grant of Rights
+
+Subject to the terms below, you are granted a **limited, non-exclusive, non-transferable license** to:
+
+### 2.1 Permitted Uses
+- **Educational Study**: Review and analyze source code for learning purposes
+- **Authorized Research**: Use in controlled laboratory environments YOU own or have explicit written permission to test
+- **Academic Citation**: Reference in papers, presentations, or research with proper attribution
+- **Defensive Development**: Study techniques to improve detection capabilities, develop security tools, or enhance defensive measures
+- **Personal Learning**: Fork and modify for private educational purposes
+
+### 2.2 Prohibited Uses
+
+You shall **NOT**:
+- Use this software to access, penetrate, or compromise systems without explicit written authorization from the system owner
+- Deploy in production environments, corporate networks, or any system not specifically designated for security research
+- Remove, modify, or obscure license notices, copyright statements, or attribution requirements
+- Distribute modified versions without retaining this license and clearly marking changes
+- Use for commercial penetration testing services without separate written agreement
+- Incorporate into products intended for malicious purposes or unauthorized system access
+- Reverse the safety mechanisms (MessageBox confirmation, logging) to weaponize the software
+- Share with individuals or groups known to engage in unauthorized computer access
+
+## 3. Safety Mechanisms
+
+This software includes deliberate safety features:
+- **Interactive confirmation dialog** requiring explicit user consent before execution
+- **NOP (no-operation) payload** by default to prevent unintended harm
+- **Comprehensive logging** for audit and learning purposes
+- **One-shot cleanup** to minimize forensic artifacts
+
+**Tampering with or removing these safety features constitutes misuse under this license.**
+
+## 4. Legal Compliance
+
+### 4.1 International Law Obligations
+
+By using this software, you acknowledge and agree:
+- You will comply with all applicable laws including but not limited to:
+  - **United States**: Computer Fraud and Abuse Act (CFAA, 18 U.S.C. § 1030)
+  - **United Kingdom**: Computer Misuse Act 1990
+  - **European Union**: Cybercrime Directive 2013/40/EU
+  - **Council of Europe**: Budapest Convention on Cybercrime
+  - All national, state, provincial, and local laws in your jurisdiction
+
+### 4.2 Authorization Requirement
+
+**You may ONLY use this software on:**
+- Computer systems you personally own
+- Systems where you have **explicit, written authorization** from the legal owner
+- Isolated laboratory environments with no connection to production networks
+- Academic/research infrastructure with proper institutional approval
+
+**Unauthorized access to computer systems is a crime in virtually all jurisdictions.**
+
+## 5. Attribution and Citation
+
+### 5.1 Academic Use
+If referencing this work in research, publications, or presentations:
+```
+keremty. (2025). Umbra: Advanced Windows Loader Framework.
+GitHub. https://github.com/keremty/Umbra
+```
+
+### 5.2 Derivative Works
+Modified versions must:
+- Retain this license in full
+- Clearly indicate modifications made
+- Credit original author (keremty)
+- Not imply endorsement by original author
+
+## 6. Disclaimer of Warranties
+
+**THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.**
+
+The author makes NO WARRANTIES, express or implied, including but not limited to:
+- MERCHANTABILITY
+- FITNESS FOR A PARTICULAR PURPOSE
+- NON-INFRINGEMENT
+- ACCURACY OR RELIABILITY
+- FREEDOM FROM ERRORS OR BUGS
+
+## 7. Limitation of Liability
+
+### 7.1 Maximum Liability
+**IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES** including:
+- Direct, indirect, incidental, special, consequential, or punitive damages
+- Loss of profits, data, use, goodwill, or other intangible losses
+- Damages resulting from unauthorized use by third parties
+- Legal costs, fines, or penalties arising from misuse
+- Claims by third parties affected by your use
+
+**This limitation applies even if the author has been advised of the possibility of such damages.**
+
+### 7.2 Indemnification
+You agree to **indemnify, defend, and hold harmless** the author from:
+- Any claims arising from your use of this software
+- Legal actions resulting from your violation of this license
+- Damages caused by unauthorized access using this software
+- Any breach of applicable laws or regulations
+
+## 8. No Professional Relationship
+
+Use of this software does NOT create:
+- An attorney-client relationship
+- A consulting or advisory relationship
+- Any professional services agreement
+- Any obligation of support, maintenance, or updates
+
+## 9. Termination
+
+This license automatically terminates if you:
+- Violate any term of this agreement
+- Use the software for unauthorized access
+- Remove or modify license terms
+- Distribute for malicious purposes
+
+Upon termination, you must:
+- Cease all use immediately
+- Delete all copies in your possession
+- Destroy any derivative works
+
+## 10. Responsible Disclosure
+
+If you discover security vulnerabilities in systems using techniques demonstrated here:
+- Follow coordinated disclosure practices
+- Notify affected parties before public disclosure
+- Allow reasonable time for remediation
+- Do not exploit vulnerabilities for personal gain
+
+## 11. Interpretation
+
+### 11.1 Severability
+If any provision is found unenforceable, remaining provisions remain in full effect.
+
+### 11.2 Entire Agreement
+This license constitutes the entire agreement regarding use of this software.
+
+### 11.3 Amendments
+The author reserves the right to update this license. Continued use after updates constitutes acceptance of new terms.
+
+### 11.4 Governing Law
+Disputes shall be governed by the laws of the jurisdiction where the author resides, without regard to conflict of law principles.
+
+## 12. Acknowledgment
+
+**BY ACCESSING, DOWNLOADING, CLONING, OR USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT:**
+
+- ✅ You have read and understood this entire license
+- ✅ You agree to be bound by all terms and conditions
+- ✅ You accept full responsibility for your actions
+- ✅ You will use this software only for authorized, legal purposes
+- ✅ You understand that misuse may result in criminal prosecution
+- ✅ The author bears no responsibility for your actions
+
+---
+
+## Contact
+
+For permissions beyond this license, collaboration proposals, or questions:
+
+**GitHub**: [@keremty](https://github.com/keremty)  
+
+
+---
+
+**License Version**: 1.0  
+**Effective Date**: January 2025  
+**Last Updated**: February 2026
+
+---
+
+*This license is specifically designed for security research tools and may not be suitable for other software types. Consult legal counsel if uncertain about compliance.*
