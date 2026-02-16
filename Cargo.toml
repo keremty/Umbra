@@ -1,0 +1,65 @@
+cargo-features = ["panic-immediate-abort"]
+
+[package]
+name = "version"
+version = "0.1.0"
+edition = "2021"
+authors = [""]
+description = ""
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+default = ["proxy_version"]
+com_hijack = []
+proxy_version = []
+proxy_uxtheme = []
+proxy_dwmapi = []
+
+[dependencies]
+winapi = { version = "0.3", features = [
+    "processthreadsapi",
+    "memoryapi",
+    "winnt",
+    "ntdef",
+    "minwindef",
+    "winbase",
+    "libloaderapi",
+    "synchapi",
+    "handleapi",
+    "errhandlingapi",
+    "fileapi",
+    "consoleapi",
+    "impl-default",
+]}
+
+[build-dependencies]
+
+[profile.dev]
+opt-level = 0
+debug = true
+panic = "immediate-abort"
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+panic = "immediate-abort"
+strip = "symbols"
+debug = false
+debug-assertions = true
+overflow-checks = false
+incremental = false
+rpath = false
+
+[profile.release.package."*"]
+opt-level = "z"
+strip = "symbols"
+debug = false
+debug-assertions = false
+
+[profile.release.build-override]
+opt-level = 3
+codegen-units = 1
